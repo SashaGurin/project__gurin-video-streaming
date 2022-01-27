@@ -1,25 +1,32 @@
 header.header
   .container
     .header__iner
-      .header__iner-left
-        .header__logo.logo
-          a.logo-link(href="#")
-            img.logo-img(src="assets/imgs/logo.png", alt="картинка")
-        button.burger(type="button")
-          span.burger-item
-        .haeder__menu.menu
-          ul.menu-list
-            li.menu-item
-              a.menu-link(href="#") Homefer
-            li.menu-item
-              a.menu-link(href="#") About us
-            li.menu-item
-              a.menu-link(href="#") Menu
-            li.menu-item
-              a.menu-link(href="#") Features
-            li.menu-item
-              a.menu-link(href="#") Contact us
-      .header__iner-right
-        a.header__btn.btn Booking Now
+      .header__logo.logo
+        a.logo-link(href="#")
+          img.logo-img(src="/assets/imgs/Logo.svg", alt="картинка")
+
+      //- button.burger(type="button")
+      //-   span.burger-item
+      .haeder__menu.menu
+        ul.menu-list
+          li.menu-item
+            a(href="#").menu-link.active Home
+          li.menu-item
+            a(href="#").menu-link TV Shows
+          li.menu-item
+            a(href="#").menu-link Movies
+          li.menu-item
+            a(href="#").menu-link Series
+      .header__controls.controls
+        ul.controls-list
+          li.controls-item
+            a(href="#").controls-link
+              img(src="assets/imgs/controls-1.svg", alt="картинка").controls-img
+          li.controls-item
+            a(href="#").controls-link
+              img(src="assets/imgs/controls-2.svg", alt="картинка").controls-img
+          li.controls-item
+            a(href="#").controls-link
+              img(src="assets/imgs/controls-3.svg", alt="картинка").controls-img
 
 
