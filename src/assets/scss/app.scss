@@ -16,17 +16,14 @@
 
 
 
-// стили компонентов
 // header...........
 @import "./componets/header";
 
 // MAIN.........
-//- Section description..........
-@import "./componets/sec__description.scss";
-//- Section passion..........
-@import "./componets/sec__passion.scss";
-// Section menupos
-@import "./componets/sec__menupos.scss";
 
-// footer...........
-@import "./componets/footer"
+// @import "./componets/sec__description.scss";
+// @import "./componets/sec__passion.scss";
+// @import "./componets/sec__menupos.scss";
+
+// // footer...........
+// @import "./componets/footer"

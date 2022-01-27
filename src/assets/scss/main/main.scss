@@ -1,26 +1,28 @@
 @import "../main/vars.scss";
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
 
 body {
     font-family: $primery-font;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
-    color: $primerycolor-black;
-    background-color: $primerycolor-white;
+    color: $primerycolor-white;
+    background-color: $primerycolor-black;
   }
 
   .container {
     width: 100%;
-    max-width: 1140px;
+    max-width: 1441px;
     padding: 0px 15px;
     margin: 0 auto;
   }
 
-  .btn {
-    line-height: 19px;
-    color: $primerycolor-white;
-    padding: 13px 30px;
-    background: $primerycolor-orange;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+//   .btn {
+//     line-height: 19px;
+//     color: $primerycolor-white;
+//     padding: 13px 30px;
+//     // background: $primerycolor-orange;
+//     border-radius: 5px;
+//     cursor: pointer;
+//   }
