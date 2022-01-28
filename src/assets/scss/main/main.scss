@@ -18,11 +18,22 @@ body {
     margin: 0 auto;
   }
 
-//   .btn {
-//     line-height: 19px;
-//     color: $primerycolor-white;
-//     padding: 13px 30px;
-//     // background: $primerycolor-orange;
-//     border-radius: 5px;
-//     cursor: pointer;
-//   }
+  .btn__blue {
+    display: inline-block;
+    background: $gradient_bg;
+    padding: 15px 18px;
+    border-radius: 100px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: $primerycolor-white;
+    cursor: pointer;
+    transition: 0.2s ease  box-shadow ;
+    &:hover {
+      box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+
+
+    }
+  }

@@ -44,7 +44,8 @@
           left: 0;
           width: 100%;
           height: 2px;
-          background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+          background: $zap_bg;
+          background: $gradient_bg;
           border-radius: 50px;
         }
       }
@@ -55,8 +56,14 @@
       display: flex;
     }
     &-item {
-        width: 21px;
-        height: 23px;
+      width: 21px;
+      height: 23px;
+      .controls-img {
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+
       }
     &-item:not(:last-child) {
         margin-right: 73px;
