@@ -10,7 +10,7 @@ section.section__description {
       padding-top: 122px;
       padding-bottom: 203px;
       background: #010101;
-      box-shadow: 100px 0px 100px #000000,-20px 0px 19px 16px #000;
+      box-shadow: 100px 0px 100px #000000, -20px 0px 19px 16px #000;
 
       .description-title {
         font-family: Marcellus;
@@ -19,9 +19,8 @@ section.section__description {
         font-size: 80px;
         line-height: 70px;
         color: $primerycolor-white;
-        margin-bottom: 32px;
+        margin-bottom: 39px;
         width: 532px;
-
       }
       .description-box__info {
         display: flex;
@@ -94,7 +93,7 @@ section.section__description {
             width: 14px;
             height: 18px;
             display: inline-block;
-            background-image: url(/assets/imgs/btn_rows.svg);
+            background-image: url(../imgs/btn_rows.svg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -135,6 +134,9 @@ section.section__description {
         top: 0;
         right: 0;
         z-index: -1;
+        filter: opacity(0.5);
+        box-shadow: inset -20px 0px 19px 16px #000;
+
       }
     }
   }
