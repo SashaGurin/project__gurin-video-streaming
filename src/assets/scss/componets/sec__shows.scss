@@ -3,7 +3,7 @@
 .title__bg {
   font-family: Mulish;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 28px;
   line-height: 20px;
   color: $primerycolor-white;
@@ -30,6 +30,11 @@ section.shows {
   padding-top: 60px;
   .title__box {
     margin-bottom: 40px;
+  }
+  .shows-btn {
+    display: inline-block;
+    margin-top: 55px;
+    padding: 15px 34px;
   }
   .shows__iner {
     display: flex;
