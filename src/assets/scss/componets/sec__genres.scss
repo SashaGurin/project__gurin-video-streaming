@@ -1,0 +1,46 @@
+@import "../main/vars";
+.genres {
+  padding-bottom: 75px;
+  .genres__iner {
+    display: flex;
+    // justify-content: space-between;
+    margin: 0px -15px;
+  }
+  .genres__column {
+    flex: 0 0 25%;
+    padding: 0 15px;
+  }
+  .genres-title {
+    margin-top: 5px;
+  }
+  .genres__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
+    border-radius: 20px;
+  }
+
+  .genres-link {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    // text-align: center;
+    color: $primerycolor-white;
+    text-decoration: none;
+  }
+  .genres__item.drama {
+    background: linear-gradient(114.5deg, #0FFFDA 2.22%, #3CDB77 68.84%);
+  }
+  .genres__item.historical {
+    background: linear-gradient(109.31deg, #B936FF 2.4%, #57DEDA 100%);
+  }
+  .genres__item.action {
+    background: linear-gradient(109.31deg, #FD093F 2.4%, #FB1378 2.41%, #FCCB1A 100%);
+  }
+}
