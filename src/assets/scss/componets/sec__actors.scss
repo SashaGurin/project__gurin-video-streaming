@@ -1,0 +1,46 @@
+@import "../main/vars";
+section.actors {
+  padding-bottom: 80px;
+  .actors__iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .actors__item {
+    flex: 0 0 11%;
+
+    margin-bottom: 20px;
+  }
+  .actors__link {
+    cursor: pointer;
+    width: 100%;
+    .actors-icon {
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      position: relative;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+    .actors-img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .actors-title {
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 20px;
+      text-align: center;
+      color: $primerycolor-white;
+      margin-top: 20px;
+      white-space: nowrap;
+    }
+  }
+}

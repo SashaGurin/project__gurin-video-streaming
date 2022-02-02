@@ -1,19 +1,36 @@
 @import "../main/vars";
 .genres {
-  padding-bottom: 75px;
+  padding-bottom: 70px;
   .genres__iner {
     display: flex;
-    // justify-content: space-between;
-    margin: 0px -15px;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    margin-bottom: -27px;
   }
   .genres__column {
     flex: 0 0 25%;
     padding: 0 15px;
+    padding-bottom: 27px;
   }
   .genres-title {
-    margin-top: 5px;
+    margin-top: 9px;
+  }
+  .genres-icon {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .genres-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
   }
   .genres__item {
+    text-align: center;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,24 +40,44 @@
     background: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
     border-radius: 20px;
   }
-
   .genres-link {
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 20px;
-    // text-align: center;
     color: $primerycolor-white;
     text-decoration: none;
   }
   .genres__item.drama {
-    background: linear-gradient(114.5deg, #0FFFDA 2.22%, #3CDB77 68.84%);
+    background: linear-gradient(114.5deg, #0fffda 2.22%, #3cdb77 68.84%);
   }
   .genres__item.historical {
-    background: linear-gradient(109.31deg, #B936FF 2.4%, #57DEDA 100%);
+    background: linear-gradient(109.31deg, #b936ff 2.4%, #57deda 100%);
   }
   .genres__item.action {
-    background: linear-gradient(109.31deg, #FD093F 2.4%, #FB1378 2.41%, #FCCB1A 100%);
+    background: linear-gradient(
+      109.31deg,
+      #fd093f 2.4%,
+      #fb1378 2.41%,
+      #fccb1a 100%
+    );
+  }
+  .genres__item.sci-fi {
+    background: linear-gradient(109.31deg, #ff6472 2.4%, #fda75d 100%);
+  }
+  .genres__item.horror {
+    background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
+  }
+  .genres__item.comedy {
+    background: linear-gradient(109.93deg, #fff77b 2.37%, #ffbf42 50%);
+  }
+  .genres__item.documentary {
+    background: linear-gradient(
+      109.31deg,
+      #1fa2ff 2.4%,
+      #1fa2ff 2.41%,
+      #1f535c 97.46%
+    );
   }
 }
