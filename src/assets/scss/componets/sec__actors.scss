@@ -1,6 +1,9 @@
 @import "../main/vars";
 section.actors {
   padding-bottom: 80px;
+  @media (max-width: 992px) {
+    padding-bottom: 30px;
+  }
   .actors__iner {
     display: flex;
     justify-content: space-between;
@@ -9,8 +12,17 @@ section.actors {
   }
   .actors__item {
     flex: 0 0 11%;
-
     margin-bottom: 20px;
+    transition: 0.2s linear all;
+    @media (max-width: 992px) {
+      flex: 1 0 33%;
+    }
+    &:hover {
+      transform: translateY(-2px);
+    }
+    &:hover :nth-child(2) {
+      transform: translateY(1px);
+    }
   }
   .actors__link {
     cursor: pointer;

@@ -5,13 +5,14 @@ section.section__description {
   position: relative;
   .description__iner {
     display: flex;
-
     &-left {
       padding-top: 122px;
       padding-bottom: 203px;
       background: #010101;
       box-shadow: 100px 0px 100px #000000, -20px 0px 19px 16px #000;
-
+      @media (max-width:992px) {
+        padding-bottom: 122px;
+      }
       .description-title {
         font-family: Marcellus;
         font-style: normal;
@@ -45,7 +46,7 @@ section.section__description {
             content: "";
             width: 60px;
             height: 24px;
-            background-image: url(/assets/imgs/border-blue.svg);
+            background-image: url(../imgs/border-blue.svg);
             background-repeat: no-repeat;
             background-size: cover;
             position: absolute;
@@ -136,7 +137,6 @@ section.section__description {
         z-index: -1;
         filter: opacity(0.5);
         box-shadow: inset -20px 0px 19px 16px #000;
-
       }
     }
   }

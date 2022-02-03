@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: space-between;
   }
-
   .menu {
     &-list {
       display: flex;
@@ -35,9 +34,9 @@
         font-weight: 800;
         position: relative;
         padding-bottom: 5px;
-        cursor:default;
+        cursor: default;
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           display: inline-block;
           bottom: 0;
@@ -63,12 +62,12 @@
           transform: scale(1.1);
         }
       }
-
-      }
+    }
     &-item:not(:last-child) {
-        margin-right: 73px;
-      }
+      margin-right: 73px;
+      @media (max-width:992px) {
+        margin-right: 33px;
+     }
+    }
   }
-
-
 }
