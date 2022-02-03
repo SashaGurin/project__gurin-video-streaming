@@ -12,13 +12,16 @@ section.coming {
     }
     .coming__item {
       flex: 0 0 50%;
-      // height: 100%;
     }
     .coming-img {
       box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.1);
       width: 100%;
       object-fit: cover;
     }
+    .coming-img.left {
+      border-radius: 20px 0px 0px 20px;
+    }
+
   }
   .coming__bottom {
     .bootom__item {
@@ -30,6 +33,7 @@ section.coming {
       justify-content: space-between;
       align-items: center;
       margin: 0 auto;
+      border-radius: 20px;
     }
     .bootom__item-title {
       font-family: Mulish;

@@ -9,6 +9,8 @@ body {
     font-weight: 400;
     color: $primerycolor-white;
     background-color: $primerycolor-black;
+    -webkit-font-smoothing: antialiased;
+
   }
 
   .container {
